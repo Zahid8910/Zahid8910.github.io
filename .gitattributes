@@ -1,0 +1,4 @@
+assets/videos/coastel[[:space:]]light[[:space:]]house.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/videos/traffic[[:space:]]light[[:space:]]controller.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/videos/clubhub.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/videos/chajoy.mp4 filter=lfs diff=lfs merge=lfs -text

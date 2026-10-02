@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+      <defs>
+        <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#0b182a"/>
+          <stop offset="1" stop-color="#1e3554"/>
+        </linearGradient>
+        <radialGradient id="r"><stop offset="0" stop-color="#438cff" stop-opacity=".35"/><stop offset="1" stop-color="#438cff" stop-opacity="0"/></radialGradient>
+      </defs>
+      <rect width="1200" height="760" fill="url(#g)"/>
+      <circle cx="850" cy="250" r="300" fill="url(#r)"/>
+      <g fill="none" stroke="#6fa8ff" stroke-opacity=".35">
+        <circle cx="850" cy="360" r="180"/><circle cx="850" cy="360" r="250"/>
+      </g>
+      <text x="70" y="600" fill="#fff" font-family="Arial" font-size="42" font-weight="700">ZH</text>
+      <text x="70" y="645" fill="#9db0c9" font-family="Arial" font-size="20">Add profile.jpg</text>
+    </svg>
