@@ -420,14 +420,13 @@ document.querySelectorAll(".project-visual, .skill-cloud span, .other-grid span"
 document.querySelectorAll(".project-video-frame").forEach(frame => {
   const video = frame.querySelector(".project-demo-video");
   const playButton = frame.querySelector(".project-video-play");
-  const syncPlayOverlay = () => frame.classList.toggle("is-playing", !video.paused && !video.ended);
 
   playButton.addEventListener("click", () => {
-    video.play().catch(() => frame.classList.remove("is-playing"));
+    const videoId = video.dataset.youtubeId;
+    if (!videoId) return;
+    video.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&controls=1&rel=0`;
+    frame.classList.add("is-playing");
   });
-  video.addEventListener("play", syncPlayOverlay);
-  video.addEventListener("pause", syncPlayOverlay);
-  video.addEventListener("ended", syncPlayOverlay);
 });
 
 const sections = document.querySelectorAll("section[id]");
@@ -471,20 +470,18 @@ if (otherWork && otherProjectCards.length) {
   document.addEventListener("visibilitychange", enableOtherProjectMotion);
   enableOtherProjectMotion();
 
-  otherWork.querySelectorAll("[data-video]").forEach(button => {
+  otherWork.querySelectorAll("[data-youtube-id]").forEach(button => {
     button.addEventListener("click", () => {
       if (!otherVideoDialog?.showModal) return;
-      otherVideoPlayer.src = button.dataset.video;
-      otherVideoPlayer.load();
+      const videoId = button.dataset.youtubeId;
+      otherVideoPlayer.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&controls=1&rel=0`;
       otherVideoDialog.showModal();
       otherVideoDialog.querySelector(".other-video-close").focus();
     });
   });
 
   const closeOtherVideo = () => {
-    otherVideoPlayer.pause();
     otherVideoPlayer.removeAttribute("src");
-    otherVideoPlayer.load();
     otherVideoDialog.close();
   };
 
