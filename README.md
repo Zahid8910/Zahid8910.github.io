@@ -1,57 +1,184 @@
-# Md. Zahid Hasan Portfolio
+# Md. Zahid Hasan | Personal Portfolio
 
-Single-page personal portfolio built with HTML, CSS and JavaScript.
+A professional personal portfolio showcasing my work in **software development, applied research, computer science projects, and technical activities**.
 
-## Open in VS Code
+The portfolio brings together selected academic and personal projects, research work, technical skills, experience, certifications, and achievements in a single platform.
 
-1. Extract the ZIP.
-2. Open the `zahid-portfolio-final` folder in VS Code.
-3. Install the VS Code extension `Live Server`.
-4. Right-click `index.html`.
-5. Select `Open with Live Server`.
+## Live Portfolio
 
-## Add your real assets
+- **Vercel:** `https://zahid-portfolio-chi.vercel.app`
+- **GitHub Pages:** `https://zahid8910.github.io/zahid-portfolio/`
 
-### Profile
-Place your profile image here:
-`assets/images/profile.jpg`
+## About
 
-### Beyond the Classroom
-Place your four activity photos here:
-`assets/images/activity-01.jpg`
-`assets/images/activity-02.jpg`
-`assets/images/activity-03.jpg`
-`assets/images/activity-04.jpg`
+I am a Computer Science & Engineering student at **American International University-Bangladesh (AIUB)** with an interest in software development, artificial intelligence, computer vision, databases, and applied research.
 
-Update the titles and descriptions in `index.html` only after confirming what each photo represents.
+My work focuses on building practical systems, exploring research problems, and developing technical skills through academic projects, extracurricular activities, and independent learning.
 
-### Certificates
-Place certificate images here:
-`assets/certificates/certificate-01.jpg` through `certificate-10.jpg`
+## Featured Projects
 
-### CV
-Place your final CV here:
-`assets/resume/Zahid_Hasan_CV.pdf`
+### Smart-Ride
+A Software Engineering project focused on a peer-to-peer carpooling platform with distance-based fare calculation, ride matching, system design, Agile Scrum practices, and software testing.
 
-### Project videos
-You can later replace the video placeholder panels with real `<video>` elements and files inside:
-`assets/videos/`
+**Technologies:** Software Engineering, System Design, Testing
 
-## Links to replace
+### ClubHub
+A C# Windows Forms-based university club management system for managing clubs, members, events, and user roles.
 
-Search `href="#"` in `index.html` and replace the placeholders with:
+**Technologies:** C#, Windows Forms, SQL, RBAC, CRUD
+
+### ChaJoy-Bangladesh
+A web development project designed to provide a simple digital experience for discovering and exploring Bangladesh.
+
+**Technologies:** HTML, CSS, JavaScript
+
+### Coastal Lighthouse Scene
+A computer graphics project developed using OpenGL and GLUT to create an interactive coastal lighthouse environment.
+
+**Technologies:** C++, OpenGL, GLUT
+
+## Other Projects
+
+- **PC Shop Management System**  
+  Database-focused application involving object-oriented programming, SQL, MySQL, and database design.
+
+- **Traffic Light Controller**  
+  Digital logic and microcontroller-related project implementing a traffic light control system.
+
+- **Automatic Night Light System**  
+  Embedded systems project involving sensors and electronic components for automatic lighting control.
+
+## Research
+
+### Published Research
+
+**Algorithmic Bias in Activism: How Social Media Shapes Crisis Movements in South Asia**
+
+Published research work examining how social media platforms influence activism, crisis movements, and information exposure in South Asia.
+
+### Presented Research
+
+**Behavioral Justification Behind Persistent Fireworks Use: Exploring the Psychology of Wildlife Harm using Fireworks**
+
+Presented at **ICETOL 2026**.
+
+**Source Recognition, Trust, and Misinformation: Examining Credibility Perceptions of Imitated News Outlets on Social Media**
+
+Presented at **ICOSPALL 2026**.
+
+### Ongoing Research
+
+- **Evaluating the Impact of Text Noise on NLP Classification**
+- **Student Behavioral Classification using CNN and YOLO-based Computer Vision**
+
+## Technical Skills
+
+### Programming
+- Java
+- C++
+- C#
+- Python
+
+### Database
+- SQL
+- MySQL
+- SQL Server
+
+### Web
+- HTML
+- CSS
+- JavaScript
+
+### AI & Computer Vision
+- Machine Learning
+- CNN
+- YOLO
+- OpenCV
+
+### Tools & Platforms
+- Git
 - GitHub
-- LinkedIn
-- Research/publication URLs
-- Project repositories
-- Live demos
+- Visual Studio
+- MATLAB
+- Figma
+- Canva
+- Vercel
 
-## Google Form
+## Experience & Activities
 
-In the contact section, replace the Google Form placeholder with your Google Forms embed iframe when you have the form URL.
+- **Campus Leader**, Interactive Cares
+- **Researcher**, AIUB Research and Development Club
+- **Associate Member**, UNYSAB
+- **Campus Ambassador**, English Olympiad
+- **Campus Correspondent**, The Front Page
+- **Campus / Community Activities** involving event coordination, research, leadership, and technical engagement
+
+## Education
+
+**American International University-Bangladesh (AIUB)**  
+Bachelor of Science in Computer Science & Engineering
+
+Additional academic background includes higher secondary and secondary education in the Science stream.
+
+## Recognition & Certifications
+
+- Interactive Cares Campus Leader Program, Batch 3
+- Best Performer recognition
+- ICETOL 2026 Research Presentation
+- ICOSPALL 2026 Research Presentation
+- BANMUN 2025 Logistics Officer
+- English Olympiad Campus Ambassador
+- UNYSAB volunteering and organizational activities
+
+## Portfolio Features
+
+- Responsive single-page portfolio
+- Project showcase with video demonstrations
+- Research and publication section
+- Interactive certification gallery
+- Responsive navigation
+- Scroll-based animations
+- Project video modals
+- Downloadable CV
+- Contact and social links
+- Mobile, tablet, and desktop support
 
 ## Deployment
 
-Push the project to GitHub, then import the repository into Vercel.
+The portfolio is maintained as a static HTML, CSS, and JavaScript website.
 
-No backend is required for this first version.
+**Deployment platforms:**
+- Vercel
+- GitHub Pages
+
+The project is connected to GitHub, allowing updates pushed to the `main` branch to be deployed automatically.
+
+## Repository Structure
+
+```text
+zahid-portfolio/
+│
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   ├── images/
+│   ├── videos/
+│   └── ...
+├── .vercelignore
+└── README.md
+```
+
+## Contact
+
+**Md. Zahid Hasan**
+
+- GitHub: `https://github.com/Zahid8910`
+- LinkedIn: Add your LinkedIn URL
+- Email: Add your professional email
+
+---
+
+### Note
+
+This repository contains the source code and selected assets used to build my personal portfolio. Project descriptions and research information are based on my academic and extracurricular work.
